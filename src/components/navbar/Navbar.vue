@@ -13,10 +13,6 @@ export default {
 </script>
 
 <template>
-  <!-- <nav class="d-flex justify-content-between">
-    <img src="../../assets/img/menulogo.png" alt="RaxG" />
-
-  </nav> -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid w-100 justift-content-between">
       <Logo />

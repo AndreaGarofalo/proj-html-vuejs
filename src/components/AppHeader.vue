@@ -1,11 +1,13 @@
 <script>
 import Navbar from "./navbar/Navbar.vue";
 import HeaderJumbo from "./headerjumbo/HeaderJumbo.vue";
+import JumboSocial from "./headerjumbo/JumboSocial.vue";
 export default {
   name: "AppHeader",
   components: {
     Navbar,
     HeaderJumbo,
+    JumboSocial,
   },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
   <header>
     <div class="container">
       <Navbar />
+      <JumboSocial />
       <HeaderJumbo />
     </div>
   </header>
@@ -25,5 +28,6 @@ header {
   background-image: url("../assets/img/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 </style>
