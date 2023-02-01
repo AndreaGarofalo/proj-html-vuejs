@@ -26,4 +26,8 @@ export default {
   </nav>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+nav {
+  margin-bottom: 150px;
+}
+</style>
