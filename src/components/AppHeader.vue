@@ -1,13 +1,15 @@
 <script>
 import Navbar from "./navbar/Navbar.vue";
 import HeaderJumbo from "./headerjumbo/HeaderJumbo.vue";
-import JumboSocial from "./headerjumbo/JumboSocial.vue";
+import SocialLinks from "./headerjumbo/SocialLinks.vue";
+import PlayerIcons from "./headerjumbo/PlayerIcons.vue";
 export default {
   name: "AppHeader",
   components: {
     Navbar,
     HeaderJumbo,
-    JumboSocial,
+    SocialLinks,
+    PlayerIcons,
   },
 };
 </script>
@@ -16,15 +18,16 @@ export default {
   <header>
     <div class="container">
       <Navbar />
-      <JumboSocial />
+      <SocialLinks />
       <HeaderJumbo />
+      <PlayerIcons />
     </div>
   </header>
 </template>
 
 <style scoped lang="scss">
 header {
-  height: 90vh;
+  height: 95vh;
   background-image: url("../assets/img/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
