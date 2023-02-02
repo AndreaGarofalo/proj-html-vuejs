@@ -59,8 +59,8 @@ export default {
     background-color: #202046;
     img {
       width: 80px;
-      height: 78px;
-      padding: 10px;
+      height: 80px;
+      padding: 20px;
     }
   }
   h3 {
