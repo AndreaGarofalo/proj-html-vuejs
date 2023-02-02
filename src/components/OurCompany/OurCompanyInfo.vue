@@ -74,6 +74,7 @@ export default {
     color: white;
     margin-bottom: 20px;
   }
+
   li {
     list-style-type: none;
     color: white;
