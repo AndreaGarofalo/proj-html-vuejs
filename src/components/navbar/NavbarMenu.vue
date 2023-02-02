@@ -209,11 +209,22 @@ a {
     min-width: 100%;
     li {
       margin: 0;
+      &::after {
+        content: "";
+        display: block;
+        margin: 0 10px;
+        height: 1px;
+        border-top: 1px solid $white;
+      }
+      &:last-of-type::after {
+        border-top: 0 solid $white;
+      }
     }
   }
   .dropdown-item {
     width: 100%;
     padding: 5px 10px;
+    font-size: 13px;
     &:hover {
       background-color: rgba($black, 0.6);
     }
