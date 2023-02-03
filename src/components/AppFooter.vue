@@ -131,6 +131,7 @@ footer {
       color: $white;
       a {
         color: $dark-green;
+        text-decoration: none;
       }
     }
   }

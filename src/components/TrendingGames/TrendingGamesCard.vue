@@ -1,10 +1,6 @@
 <script>
-import PlayButton from "../Buttons/PlayButton.vue";
 export default {
   name: "TrendingGamesCard",
-  components: {
-    PlayButton,
-  },
 };
 </script>
 
