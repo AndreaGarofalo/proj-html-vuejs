@@ -5,6 +5,7 @@ import OurStreaming from "./OurStreaming/OurStreaming.vue";
 import UpcomingMatch from "./UpcomingMatch/UpcomingMatch.vue";
 import TrendingGames from "./TrendingGames/TrendingGames.vue";
 import Matches from "./Matches/Matches.vue";
+import OurExperts from "./OurExpert/OurExperts.vue";
 export default {
   name: "AppMain",
   components: {
@@ -14,6 +15,7 @@ export default {
     UpcomingMatch,
     TrendingGames,
     Matches,
+    OurExperts,
   },
 };
 </script>
@@ -25,6 +27,7 @@ export default {
   <UpcomingMatch />
   <TrendingGames />
   <Matches />
+  <OurExperts />
 </template>
 
 <style scoped lang="scss"></style>
